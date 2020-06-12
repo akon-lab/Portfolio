@@ -1,0 +1,450 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Portfolio</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="style.css">
+
+    <script>
+        function change(type) {
+
+            type = type.trim();
+            if (type == 'cv') {
+
+                document.querySelector(".cv-block").style.display = 'block';
+
+                document.querySelector(".cl-block").style.display = 'none';
+                document.querySelector(".swot-block").style.display = 'none';
+                document.querySelector(".main-block").style.display = 'none';
+                document.querySelector(".vt-block").style.display = 'none';
+
+            }
+            else if (type == 'vt') {
+                document.querySelector(".vt-block").style.display = 'block';
+
+                document.querySelector(".cv-block").style.display = 'none';
+                document.querySelector(".cl-block").style.display = 'none';
+                document.querySelector(".swot-block").style.display = 'none';
+                document.querySelector(".main-block").style.display = 'none';
+            }
+            else if (type == 'swot') {
+                document.querySelector(".swot-block").style.display = 'block';
+
+                document.querySelector(".cv-block").style.display = 'none';
+                document.querySelector(".cl-block").style.display = 'none';
+                document.querySelector(".main-block").style.display = 'none';
+                document.querySelector(".vt-block").style.display = 'none';
+
+            }
+            else if (type == 'cl') {
+                document.querySelector(".cl-block").style.display = 'block';
+
+                document.querySelector(".cv-block").style.display = 'none';
+                document.querySelector(".swot-block").style.display = 'none';
+                document.querySelector(".main-block").style.display = 'none';
+                document.querySelector(".vt-block").style.display = 'none';
+
+            } else {
+                document.querySelector(".main-block").style.display = 'block';
+                document.querySelector(".cl-block").style.display = 'none';
+                document.querySelector(".swot-block").style.display = 'none';
+                document.querySelector(".cv-block").style.display = 'none';
+                document.querySelector(".vt-block").style.display = 'none';
+            }
+        }
+    </script>
+
+
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Tenali+Ramakrishna&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="head" id="head">
+
+        <h3>
+            <span id="main" onclick="change(this.id)">
+                &#9789; Akniet Adil Portfolio &#9790;
+            </span>
+        </h3>
+        <div class="op">
+
+            <a id="swot" onclick="change(this.id)">SWOT</a>
+            <a id="vt" onclick="change(this.id)">Video Tutorial</a>
+            <a id="cv" onclick="change(this.id)">CV</a>
+            <a id="cl" onclick="change(this.id)">Cover Letter</a>
+
+        </div>
+    </div>
+
+    <div class="main">
+
+        <div class="swot-block">
+            <div class="swot">
+
+
+
+                <div class="script">
+
+                    <div class="video mx-auto">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/mwPrHwPX51Y" frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <h1>SWOT Script:</h1>
+                    <h2>S-Strengths </h2>
+                    <ul>
+                        <li>
+                            The Test Center is doing a great job as one of the information
+                            sites of the Ministry of Education of Kazakhstan.
+                        </li>
+                        <li>
+                            It has no competitors in our country.
+                        </li>
+                        <li>
+                            Being one of the state websites, its resources are a
+                            certain database of the Ministry of Education related to state exams and tests.
+                        </li>
+                        <li>
+                            many users of the site note its quick access and user-friendly interface
+                        </li>
+                    </ul>
+
+                    <h2>W-Weaknesses </h2>
+                    <ul>
+                        <li>
+                            One of the disadvantages of the site is its ordinary design. Although the main page of the
+                            site
+                            looks very attractive, but only it can boast of this kind, the rest of the pages look the
+                            same and
+                            many users it discourages the desire to familiarize themselves with the provided page.
+
+                        </li>
+                        <li>
+                            The site may also hang in the period of passing the UNT, when 300 thousand users want to
+                            know the
+                            results, thus overloading the site traffic.
+
+                        </li>
+                        <li>Though the Test Center has no direct competitors in Kazakhstan, but taking into account
+                            foreign
+                            sites with the same direction as ETS "Educational Testing Service“
+                            <a href="https://www.ets.org/">https://www.ets.org/</a>
+                            (USA) or
+                            CITO
+                            <a href="https://www.cito.com/">https://www.cito.com/</a>
+                            (Nederland), it is already inferior to them according to some
+                            sources.
+                        </li>
+                        <li>More precisely in such categories as Trust/Spam/Download speed.
+
+                        </li>
+                    </ul>
+
+                    <h2>O-Opportunities </h2>
+                    <ul>
+                        <li>
+                            Links to the recent pandemic have shown a trend towards distance learning, and many
+                            government tests
+                            could also go online if the site had sufficient resources to conduct such examinations with
+                            minimal
+                            cheating,
+
+                        </li>
+                        <li>Even if the Test Center could provide this kind of test, there would still be a problem with
+                            Internet access, in many parts of the country.
+                        </li>
+                        <li>In 2020, SNT will be conducted as before, but thanks to pandemics, the Ministry of Education
+                            already
+                            knows what they need to work on.
+                        </li>
+                    </ul>
+
+                    <h2>T-Threats </h2>
+                    <ul>
+                        <li>
+                            If the state exams are postponed online in the future, the database itself may be hacked
+                            during the
+                            exam and thus data leaks may occur. This is due to the fact that data protection becomes
+                            much weaker
+                            during the online regime. Therefore, the implementation of the online exam is assessed as an
+                            idea
+                            with a higher threat level.
+
+                        </li>
+                    </ul>
+
+                    <h2>References :</h2>
+                    <ul>
+                        <li>
+                            Smagulov Didar Nurkenovich National Test Center .
+                            <a href="http://www.testcenter.kz/ru/">http://www.testcenter.kz/ru/</a>
+                        </li>
+                        <li>
+                            Be One .
+                            <a href="Be One . https://be1.ru/">Be One . https://be1.ru/</a>
+                        </li>
+                        <li>
+                            Check Trust .Be One .
+                            <a href="Be One . https://be1.ru/">Be One . https://be1.ru/</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="cv-block">
+
+            <div class="big mx-auto">
+                <h3>Resume</h3>
+                <img src="image/resume.jpg" alt="" class=" mx-auto">
+            </div>
+
+        </div>
+
+        <div class="cl-block">
+
+            <div class="big mx-auto">
+                <h3>Cover Letter</h3>
+                <img src="image/coverlet (1).jpg" alt="" class=" mx-auto">
+            </div>
+
+        </div>
+
+        <div class="vt-block">
+
+            <div class="youtube mx-auto">
+
+                <div class="video row  mx-auto">
+                    <iframe width="400" height="255" src="https://www.youtube.com/embed/lpsCDIQpBU0" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <div class="text">
+                        <h2>My video tutorial</h2>
+                        <p>
+                            about <strong style="color: #FEF2F4;">FREE!!</strong> GitHub hosting,
+                            that's video will be usefull for newbie in WebDev
+                        </p>
+                    </div>
+                </div>
+
+                <div class="script">
+                    <h3>Video Tutorial [Script]</h3>
+                    <p>[ HOOK]</p>
+                    <p>Are you a novice web developer and you don't have a foundation to host your project? You
+                        don&rsquo;t know
+                        how to get free hosting? Well, you're in the right place, my friend. In this video, I'm going to
+                        show
+                        you step by step how to host website on free GitHub hosting? Stay tuned.</p>
+                    <p>[INTRO]</p>
+                    <p>Hi, I'm Akniet, and on this channel, I share ICT tutorials for beginner programmers. This video
+                        will be
+                        useful for novice programmers in the field of web development. When you are newbie&nbsp;in ICT,
+                        and you
+                        need show your work, the name of the game is to host projects that make your portfolio looks
+                        professional and decent. You have two options. First option, pay for hosting and domain to place
+                        your
+                        work. Second option, use GitHub free hosting. I'm going to walk you through second one, after
+                        all GitHub
+                        provides excellent conditions for creating a portfolio of projects for a novice.</p>
+                    <p>[ BODY]</p>
+                    <ul>
+                        <li>First you need to register in GitHub.</li>
+                    </ul>
+                    <p>If you don't have an account yet.</p>
+                    <ul>
+                        <li>You just need to fill this form and press &ldquo;Sign up for GitHub&rdquo; button.</li>
+                    </ul>
+                    <ul>
+                        <li>Now we need to create a repository.</li>
+                    </ul>
+                    <p>Bonus: the repository is a special cell of your GitHub, where you can place your project (made in
+                        any
+                        language). Its superiority, because it also stores your code.</p>
+                    <ul>
+                        <li>I sign in to my account, know we need to create new repository</li>
+                        <li>On the right-top side you can see that &ldquo;+&rdquo; button, press it.</li>
+                        <li>Then choose &ldquo;New repository&rdquo; and click</li>
+                        <li>Now go to Settings</li>
+                    </ul>
+                    <ul>
+                        <li>We are in Repository create constructor:</li>
+                        <li>For the first we name our repository.</li>
+                        <li>We should write some description.</li>
+                        <li>Choose option of repository visibility,</li>
+                    </ul>
+                    <p>Choose public or make it hidden, it is on your choice.</p>
+                    <ul>
+                        <li>You can also make Readme. file, but I will do it next time, it is not important</li>
+                        <li>After all, press that green button &ldquo;Create&rdquo;</li>
+                        <li>we got our repository, you may be shock seeing that, but they are just hints to insert
+                            files.</li>
+                    </ul>
+                    <ul>
+                        <li>Now we need download GitHub Desktop to insert project files from our computer</li>
+                    </ul>
+                    <p><a href="https://desktop.github.com/">https://desktop.github.com/</a></p>
+
+                    <ul>
+                        <li>After loading you can choose the way how GitHub Desktop will connect with your git-account
+                        </li>
+                        <li>Then filling a form and press &ldquo;Sign in&rdquo; button</li>
+                        <li>Find your repository</li>
+                        <li>Click on &ldquo;Clone (repository name)&rdquo; button</li>
+                        <li>In come up page Clone, press &ldquo;Clone&rdquo; [It mean that you agree to give access to
+                            repository]</li>
+                        <li>Now you need to search file witch have the same name as your repository.</li>
+                        <li>Replace your project file into repository file</li>
+                        <li>Open your GitHub Desktop again</li>
+                        <li>You may find that some files will come up</li>
+                        <li>Now write a summary right here, description not important.</li>
+                        <li>Press the button &ldquo;Commit to master&rdquo;.</li>
+                        <li>And when &ldquo;No local changes page&rdquo; will come up.</li>
+                        <li>Click on &ldquo;Publish branch&rdquo; button.</li>
+                        <li>Go to GitHub page and look in your repository, there are fills which we have inserted</li>
+
+                        <li>Now we need make hosting for our repository</li>
+                        <li>On the top-right side of page, find &ldquo;Settings&rdquo; and click</li>
+                        <li>And if you scroll down, you'll see &ldquo;GitHub Pages&rdquo; section.</li>
+                        <li>In that section we have block &ldquo;Source&rdquo;, in which we need press
+                            &ldquo;None&rdquo;
+                            button.</li>
+                        <li>Choose master branch source.</li>
+                        <li>Now we published our site, and need to wait for a while to allow the software to read your
+                            files.
+                        </li>
+                        <li>Hint: once the box is green, it notifies you that a link is ready.</li>
+                        <li>Press that link and go to website</li>
+                        <li>Now you can copy that link and share it</li>
+                    </ul>
+                    <p>&nbsp;</p>
+                    <p>[ summery]</p>
+                    <p>So you can start leveraging the power of GitHub to make more project with ease.</p>
+                    <p>&nbsp;</p>
+                    <p>[ FEED BACK]</p>
+                    <p>Check out the description for links to all of the resources mentioned in this video. If you found
+                        this
+                        video useful, give me a thumbs up and don't forget to subscribe to my channel and thanks for
+                        watching.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="main-block">
+            <div class="about row ">
+                <img src="image/me.jpg" alt="">
+                <div class="text p-2 ">
+                    <h5> <span><img src="image/pngguru.com.png" alt=""></span> About me: </h5>
+                    <p>
+                        A confident and reliable programmer,
+                        great communicator, has the flexibility
+                        in work well as a team and independently.
+                    </p>
+                </div>
+            </div>
+
+            <div class="skill text-center">
+
+                <h3>Skills</h3>
+                <div class="row text-left">
+                    <div class="hard">
+                        <h4>Hard Skill</h4>
+                        <ul>
+                            <li>System architecture</li>
+                            <li>Highly analytica</li>
+                            <li>Software Installation</li>
+                            <li> Application Server</li>
+
+                        </ul>
+                    </div>
+                    <div class="soft">
+                        <h4>Soft Skill</h4>
+                        <ul>
+                            <li>Problem solving</li>
+                            <li>Commitment to outcomes</li>
+                            <li>Creativity</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="logo mx-auto">
+                <div>
+                    <a href="https://github.com/akon-lab" target="_blank" rel="noopener noreferrer">
+                        <img src="image/github-logo.png" alt="GitGub">
+                    </a>
+                    <p>Github</p>
+                </div>
+                <div>
+                    <a href="https://leetcode.com/akonit/" target="_blank" rel="noopener noreferrer">
+                        <img src="image/leetcode_logo_icon_145113.png" alt="LeetCode">
+                    </a>
+                    <p>LeetCode</p>
+                </div>
+                <div>
+                    <a href="https://www.youtube.com/channel/UCWfDPbMd23Sb2fjKlIxisNA?view_as=subscriber"
+                        target="_blank" rel="noopener noreferrer">
+                        <img src="image/social_media_logo_youtube_logo_icon_141104.png" alt="YouTube">
+                    </a>
+                    <p>YouTube</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="contact">
+        <h1>Contacts:</h1>
+        <ul>
+            <li>&#9743;: 8(701)94 806 31</li>
+            <li>Mail: aknietadil@gmail.ru</li>
+            <li>GitHub: <a href="https://github.com/akon-lab">akon-lab</a></li>
+        </ul>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <a href="#head" class="tip">go up</a>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
